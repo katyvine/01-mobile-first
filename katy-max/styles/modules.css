@@ -3,7 +3,6 @@
     padding:20px;
 }
 .main-nav ul li{
-    display:inline-block;
     list-style: none;
 }
 
@@ -30,36 +29,33 @@ div.icon-menu {
     margin-top:-135px;
 }
 
-.main-nav ul li{
+.main-nav ul{
     display:none;
 }
+
 .main-nav ul {
     margin:20px;
 }
 
-/* div.icon-menu:hover {
-    display:inline-block;
-} */
-.icon-menu:hover li{
+.icon-menu:hover + ul{
     display:block;
 }
 
+img {
+    max-width:100%;
+}
+
 @media (min-width: 640px) {
-    
+
+     /*hamburger menu go away */
     div.icon-menu {
-        float:right;
         display: none;
     }
-    /* div.icon-menu:hover {
+    .main-nav ul li{
         display:inline-block;
-    } */
-
-    img {
-        min-width:100%;
     }
 
-    /* div.icon-menu:hover  .main-nav ul li{
-        display:block;
+    /* img {
+        max-width:100%;
     } */
-
 }
