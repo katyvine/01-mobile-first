@@ -1,0 +1,57 @@
+.site-header {
+    background-color: rgba(255, 233, 173, 1.0);
+    padding:20px;
+}
+.main-nav ul li{
+    display:inline-block;
+    list-style: none;
+}
+/* .main-nav a{
+   text-decoration:none;
+   color: gray;
+} */
+
+.main-nav a:visited {
+    text-decoration: none;
+}
+.main-nav a {
+    font-size: 30px;
+    margin-left:20px;
+    margin-top:20px;
+}
+.byline, .byline address, .byline time {
+    display: inline-block;
+    color: gray;
+}
+
+.pull-right {
+    float:right;
+}
+
+p::after {
+    content: "\A";
+}
+img {
+    width:inherit;
+}
+
+.icon-menu {
+    position: absolute;
+    top:0;
+    left:500;
+}
+@media (min-width: 640px) {
+    
+    .icon-menu {
+        display:none;
+
+        position: absolute;
+        top:0;
+        left:500;
+    }
+
+    img {
+        min-width:100%;
+    }
+
+}
