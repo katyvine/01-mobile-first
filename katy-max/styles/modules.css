@@ -55,7 +55,7 @@ img {
         display:inline-block;
     }
 
-    /* img {
-        max-width:100%;
-    } */
+    img {
+        width:auto;
+    }
 }
